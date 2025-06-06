@@ -22,22 +22,6 @@ Artichoke is a modern OpenGL-based application for visualizing and interactively
 - [GLM](https://github.com/g-truc/glm)
 - [ImGui](https://github.com/ocornut/imgui)
 
-### Build Instructions
-
-```sh
-# Clone the repository
-$ git clone https://github.com/yourusername/Artichoke.git
-$ cd Artichoke
-
-# Create build directory and compile
-$ mkdir build && cd build
-$ cmake ..
-$ cmake --build .
-
-# Run the application
-$ ./Artichoke
-```
-
 ## Usage
 
 - **Left Click**: Select or drag joints (in 2D views)
@@ -84,4 +68,4 @@ $ ./Artichoke
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License.

@@ -1,0 +1,47 @@
+# Ignore build output and CMake files
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio and MSVC files
+*.obj
+*.pdb
+*.ilk
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.ipch
+*.tlog
+*.idb
+*.pch
+*.ncb
+*.aps
+*.sln
+*.vcxproj*
+.vs/
+
+# Editor and OS files
+*.log
+*.DS_Store
+*.directory
+*.swp
+*.bak
+*.tmp
+.vscode/
+
+# Project-specific: ignore build output for all configurations
+/build*/
+/x64-*/
+
+# Ignore generated executables and DLLs
+*.exe
+*.dll
+*.manifest
+
+# Ignore CMakePresets.json.user (if generated)
+CMakePresets.json.user

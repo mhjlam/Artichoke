@@ -2,6 +2,8 @@
 
 Artichoke is a modern OpenGL-based application for visualizing and interactively manipulating 2D and 3D articulated chains. It features efficient rendering, intuitive controls, and a flexible UI powered by ImGui.
 
+![Animation](media/artichoke.gif)
+
 ## Features
 
 - 2D and 3D articulated chain visualization.
